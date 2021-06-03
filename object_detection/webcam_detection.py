@@ -167,7 +167,6 @@ import six.moves.urllib as urllib
 import sys
 import tarfile
 import tensorflow.compat.v1 as tf
-import pyttsx3
 import zipfile
 import streamlit as st
 
@@ -182,7 +181,7 @@ from utils import label_map_util
 from utils import visualization_utils as vis_util
 
 import cv2
-import speech_recognition as sr
+
 
 r = sr.Recognizer()
 
