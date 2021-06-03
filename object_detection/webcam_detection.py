@@ -183,8 +183,6 @@ from utils import visualization_utils as vis_util
 import cv2
 
 
-r = sr.Recognizer()
-
 cap = cv2.VideoCapture(
     0)  # if you have multiple webcams change the value to the correct one
 
