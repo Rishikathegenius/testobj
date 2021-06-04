@@ -4,10 +4,9 @@ import six.moves.urllib as urllib
 import sys
 import tarfile
 import tensorflow.compat.v1 as tf
-import pyttsx3
 import zipfile
 import streamlit as st
-
+import pyttsx3
 from collections import defaultdict
 from io import StringIO
 from matplotlib import pyplot as plt
@@ -20,9 +19,9 @@ from utils import visualization_utils as vis_util
 
 import cv2
 from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
-import speech_recognition as sr
 
-r = sr.Recognizer()
+
+
 
 cap = cv2.VideoCapture(
     0)  # if you have multiple webcams change the value to the correct one
